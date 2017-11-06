@@ -62,7 +62,7 @@ def t02(factory):
         print('FAIL %s: hickup dir not created' % pretty)
         return False
 
-    # expect to find a file whose name includes todays date, the name of the
+    # expect to find a file whose name includes today\'s date, the name of the
     # signalled process and the process' pid. don't bother with high clock
     # resolution in the date check. do note that the test *can* fail if run
     # run very close to midnight
