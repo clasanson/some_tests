@@ -114,7 +114,7 @@ def t4(factory):
     handover.end_handover(1)
 
     # check that availability is correct. stop the sessions started against the
-    # handover and check that the resources become availabe in the takeover
+    # handover and check that the resources become available in the takeover
     result = takeover.list_available()
     if len(result) != len(avail_3):
         print('FAIL %s: wrong avail 3: %s != %s' % (pretty, result, avail_3))
